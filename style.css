@@ -14,7 +14,29 @@ body {
 }
 
 main {
-    border: 1px solid red;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
     margin: 50px auto;
+
+    max-width: 300px;
+    min-width: 300px;
+
+    padding: 19px;
     
+}
+
+.altura-imagen {
+    width: 300px;
+    border-radius: 5px;
+}
+
+main h1 {
+    font-size: 0.9em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main p {
+    padding-bottom: 15px;
+    font-size: 0.8em;
 }
