@@ -41,7 +41,7 @@ main p {
     font-size: 0.8em;
 }
 
-ul {
-    list-style: none;
-    columns: 2;
+.float {
+    border: 1px solid red;
+    float: right;
 }
