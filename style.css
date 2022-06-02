@@ -40,3 +40,8 @@ main p {
     padding-bottom: 15px;
     font-size: 0.8em;
 }
+
+ul {
+    list-style: none;
+    columns: 2;
+}
