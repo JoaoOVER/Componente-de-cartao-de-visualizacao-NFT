@@ -8,26 +8,25 @@
 body {
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Comfortaa', cursive;
-    background: hsl(217, 54%, 11%);
+    background: rgb(13, 25, 43);
     Font-size: 18px;
     color: #fff;
 }
 
 main {
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 10px;
+    background-color: rgb(20, 37, 61);
+    border-radius: 15px;
     margin: 50px auto;
 
     max-width: 300px;
     min-width: 300px;
 
     padding: 19px;
-    
 }
 
-.altura-imagen {
+.nft-imagen {
     width: 300px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 main h1 {
@@ -39,9 +38,69 @@ main h1 {
 main p {
     padding-bottom: 15px;
     font-size: 0.8em;
+    color: #8bacda;
 }
 
-.float {
-    border: 1px solid red;
-    float: right;
+.position1 {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -20px;
+    left: 17px;
+    color: #00FFF8;
+}
+
+.position2 {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -59px;
+    left: 218px;
+}
+
+.position3 {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -38px;
+    left: 199px;
+}
+
+.position4 {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -33px;
+    left: 59px;
+}
+
+.position5 {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -29px;
+    left: 0px;
+}
+
+.imagen-avata {
+    width: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link2 {
+    text-decoration: none;
+    color: #00FFF8;
+}
+
+.link3 {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link3:hover {
+    color: #00FFF8;
 }
